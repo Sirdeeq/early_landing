@@ -8,6 +8,7 @@ import Services from "../components/Sections/Services";
 // import Pricing from "../components/Sections/Pricing";
 import Contact from "../components/Sections/Contact";
 import Footer from "../components/Sections/Footer"
+import OurTeam from "../components/Sections/OurTeam";
 
 export default function Landing() {
   return (
@@ -19,6 +20,7 @@ export default function Landing() {
       {/* <Blog /> */}
       {/* <Pricing /> */}
       <Contact />
+      <OurTeam />
       <Footer />
     </>
   );
