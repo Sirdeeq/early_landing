@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable no-unused-expressions */
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
@@ -7,8 +9,10 @@ import Backdrop from "../Elements/Backdrop";
 // Assets
 // import LogoIcon from "../../assets/svg/Logo";
 import BurgerIcon from "../../assets/svg/BurgerIcon";
+import { useNavigate } from "react-router-dom";
 
 export default function TopNavbar() {
+  const navigate= useNavigate()
   const [y, setY] = useState(window.scrollY);
   const [sidebarOpen, toggleSidebar] = useState(false);
 
@@ -28,7 +32,7 @@ export default function TopNavbar() {
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
             {/* <LogoIcon /> */}
-            <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
+            <h1 style={{ marginLeft: "15px" }} className="font20 extraBold" onClick={()=> navigate('/')}>
               EWS
             </h1>
           </Link>
@@ -69,13 +73,11 @@ export default function TopNavbar() {
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer">
-              <a href="/" style={{ padding: "10px 30px 10px 0" }}>
-                Log in
-              </a>
+              <a style={{ padding: "10px 30px 10px 0" }} onClick={(e)=> {e.preventDefault(); navigate('/sign_up')}} >Log in</a>
             </li>
             <li className="semiBold font15 pointer flexCenter">
               <a href="/" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
-               Admin
+               Sign Up
               </a>
             </li>
           </UlWrapperRight>
