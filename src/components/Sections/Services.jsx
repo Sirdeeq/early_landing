@@ -166,8 +166,8 @@ const ServiceBoxRow = styled.div`
 `;
 const ServiceBoxWrapper = styled.div`
   width: 25%;
-  margin: 2%;
-  padding: 90px 0;
+  margin: 1%;
+  padding: 70px 0;
   // border: 1px solid black;
   @media (max-width: 860px) {
     width: 100%;
