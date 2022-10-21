@@ -15,7 +15,7 @@ export default function Header() {
       <LeftSide className="flexCenter">
         <div>
           <h1 className="extraBold font60">Early Warning System</h1>
-          <HeaderP className="font13 semiBold">
+          <HeaderP className="font15 semiBold">
             An early warning system is a warning system that can be
             implemented as a chain of information communication systems and
             comprises sensors, event detection and decision subsystems for

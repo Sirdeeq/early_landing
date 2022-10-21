@@ -17,7 +17,7 @@ export default function Contact() {
           <InnerWrapper className="flexSpaceCenter" style={{ padding: "30px 0" }}>
             <Link className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
               {/* <LogoImg /> */}
-              <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px" }}>
+              <h1 className="font30 extraBold whiteColor" style={{ marginLeft: "15px" }}>
                 EWS
               </h1>
             </Link>
@@ -26,7 +26,7 @@ export default function Contact() {
             </StyleP>
 
             <Link className="whiteColor animate pointer font13" to="home" smooth={true} offset={-80}>
-              Back to top
+              <img src={require('../../images/icons8_up_50px.png').default} alt = 'arrow_up' className="arrow"/>
             </Link>
           </InnerWrapper>
         </div>

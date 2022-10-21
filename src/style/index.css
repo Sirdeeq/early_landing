@@ -269,3 +269,24 @@
   .whiteBg {
     background-color: #fff;
   }
+.image_management_cycle{
+  /* width: 300px; */
+  margin-bottom: 10%;
+  margin-right: 200px;
+}
+.border{
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+}
+.card{
+  border: 1px solid #0B093B;
+  background-color: #0B093B;
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 0.6rem;
+}
+.arrow{
+  background-image: linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,.4));
+  border-radius: 100%;
+}
