@@ -4,13 +4,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./style/flexboxgrid.min.css";
 import './style/index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import reportWebVitals from './reportWebVitals';
+import AppNav from './AppNav';
+import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.render(
-  <>
-    <App />
-  </>,
+  <BrowserRouter>
+        <AppNav />
+    </BrowserRouter>,
   document.getElementById('root')
 );
 

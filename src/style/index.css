@@ -290,3 +290,95 @@
   background-image: linear-gradient( rgba(0,0,0,.4), rgba(0,0,0,.4));
   border-radius: 100%;
 }
+
+
+/* log In style */
+
+
+:root{
+  --primary: rgba(0,0,0,.4);
+  --secondry: rgba(0,0,0,.4);
+}
+.sign-in-div1{
+  height: 97.9vh;
+  width: 100vw;
+  margin: 0;
+  font-family: Footlight MT Light;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  color: #fff;
+
+  background:linear-gradient(135deg, var(--primary), var(--secondry)),
+   url(../images/Desktop-Wallpaper-Lauterbrunnen-landscape-pictures-desktop-wallpaper.jpg);
+}
+.sign-in-div2{
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+}
+.sign-in-div3{
+  background-color: #0B093B;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  margin: auto;
+  height: 100px;
+  margin-top: -10%;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+.sign-in-div4{
+  display: flex;
+  flex-direction: column;
+}
+.sign-in-input{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  outline: none;
+}
+.sign-in-para{
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+  padding: 30px;
+}
+.sign-in-switch{
+  margin-left: 20px;
+  outline: transparent;
+}
+.sign-in-label{
+  color: #b3b3b3;
+  font-weight: bold;
+  cursor: pointer;
+}
+.sign-in-bottom{
+  background-color: #0B093B;
+  color: #fff;
+  margin: 20px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 8px;
+  font-size: 15px;
+  border: transparent;
+  border-radius: 10px;
+}
+.sign-in-para1{
+  color: #b3b3b3;
+  text-align: center;
+}
+.sign-in-href{
+  color: #0B093B;
+  text-decoration: none;
+  font-weight: bold;
+}
+.sign-in-href:hover{
+  color: #0B093B;
+}
