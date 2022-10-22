@@ -1,12 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import { FormGroup, Input, Label } from 'reactstrap';
 import TopNavbar from '../Nav/TopNavbar';
 import Footer from "../Sections/Footer"
 
 export default function SignIn() {
-  const navigate= useNavigate()
+//   const navigate= useNavigate()
   return (
     <>
       <TopNavbar />
@@ -26,7 +26,7 @@ export default function SignIn() {
                     <button className='sign-in-bottom'>LogIn</button>
                     <div>
                     <p className='sign-in-para1'>Don't have an account?<a href='#' className='sign-in-href'
-                        onClick={()=>navigate('/sign-up')}
+                        // onClick={()=>navigate('/sign-up')}
                     > Sign Up</a></p>
                     </div>
                 </div>

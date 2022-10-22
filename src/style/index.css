@@ -300,15 +300,14 @@
   --secondry: rgba(0,0,0,.4);
 }
 .sign-in-div1{
-  height: 97.9vh;
-  width: 100vw;
+  height: 100vh;
+  width: 100%;
   margin: 0;
   font-family: Footlight MT Light;
   display: grid;
   place-items: center;
   place-content: center;
   color: #fff;
-
   background:linear-gradient(135deg, var(--primary), var(--secondry)),
    url(../images/Desktop-Wallpaper-Lauterbrunnen-landscape-pictures-desktop-wallpaper.jpg);
 }
@@ -381,4 +380,17 @@
 }
 .sign-in-href:hover{
   color: #0B093B;
+}
+@media (max-width: 960px){
+  .sign-in-div1{
+    max-width: 90%;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+    margin-left: 20px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    /* width: 100%;
+    height: 100vh; */
+    /* background:linear-gradient(135deg, var(--primary), var(--secondry)),
+    url(../images/Desktop-Wallpaper-Lauterbrunnen-landscape-pictures-desktop-wallpaper.jpg);*/
+  }
 }
