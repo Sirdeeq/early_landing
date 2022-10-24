@@ -22,18 +22,20 @@ export default function Contact() {
                 <input type="text" id="email" name="email" className="font15" placeholder="Email" style={{ padding: '5px 10px' }} />
                 {/* <label className="font13">Subject:</label> */}
                 <input type="text" id="subject" name="subject" className="font15" placeholder="Subject" style={{ padding: '5px 10px' }} />
-                <textarea type="text" id="message" name="message" className="font15" style={{ padding: '5px 10px', height: '20px' }}/>
+                <textarea type="text" id="message" name="message" className="font15" style={{ padding: '5px 10px', height: '20px' }} />
               </Form>
               <SumbitWrapper className="flex">
-                <ButtonInput 
-                  type="submit" 
-                  value="Send Message" 
-                  className="pointer animate radius8" 
-                  style={{ 
-                    maxWidth: "200px", 
-                    fontWeight: 'bolder',
-                    fontSize: 16
-                  }} />
+                <center>
+                  <ButtonInput
+                    type="submit"
+                    value="Send Message"
+                    className="pointer animate radius8"
+                    style={{
+                      maxWidth: "200px",
+                      fontWeight: 'bolder',
+                      fontSize: 16
+                    }} />
+                </center>
               </SumbitWrapper>
             </div>
             {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">

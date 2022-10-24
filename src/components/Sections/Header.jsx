@@ -3,15 +3,16 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/Emergency call (2).gif";
-import QuotesIcon from "../../assets/svg/Quotes";
+import HeaderImage from "../../assets/img/Untitled@3-1366x636.jpg";
+// import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
+import { LocationMessage } from "./LocationForm";
 
 export default function Header() {
   const [ view, setView ] = useState(false);
 
   return (
-    <Wrapper id="home" className="container flexSpaceCenter">
+    <Wrapper id="hhome" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
           <h1 className="extraBold font60">Early Warning System</h1>
@@ -28,8 +29,8 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         {!view ? <ImageWrapper>
-          <Img className="radius8" src={HeaderImage} alt="office" style={{ zIndex: 9 }} />
-          <QuoteWrapper className="flexCenter darkBg radius8">
+          <Img className="radius8" src={HeaderImage} alt="office" width={600}  height={400} style={{ zIndex: 9 }} />
+          {/* <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
               <QuotesIcon />
             </QuotesWrapper>
@@ -39,15 +40,14 @@ export default function Header() {
               </p>
               <p className="font13 orangeColor textRight" style={{ marginTop: '10px' }}>NEMA</p>
             </div>
-          </QuoteWrapper>
+          </QuoteWrapper> */}
           <DotsWrapper>
             <Dots />
           </DotsWrapper>
         </ImageWrapper> : 
-        // <LocationForm /> 
-        ""
+        <LocationMessage /> 
         }
-        <GreyDiv className="lightBg"></GreyDiv>
+        {/* <GreyDiv className="lightBg"></GreyDiv> */}
       </RightSide>
     </Wrapper>
   );
@@ -100,17 +100,17 @@ const BtnWrapper = styled.div`
     margin: 0 auto;
   }
 `;
-const GreyDiv = styled.div`
-  width: 30%;
-  height: 700px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 0;
-  @media (max-width: 960px) {
-    display: none;
-  }
-`;
+// const GreyDiv = styled.div`
+//   width: 30%;
+//   height: 700px;
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   z-index: 0;
+//   @media (max-width: 960px) {
+//     display: none;
+//   }
+// `;
 const ImageWrapper = styled.div`
   display: flex;
   justify-content: flex-end;

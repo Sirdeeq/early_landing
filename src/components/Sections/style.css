@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+b,
+u,
+i {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+body {
+  font-size: 16px;
+  background-color: #fafafa;
+  font-family: "Poppins", "sans-serif";
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#main-content {
+  height: 100%;
+  width: 100%;
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #4c4e61;
+}
+
+#main-content #header-1 {
+  font-size: 28px;
+  font-weight: 200;
+}
+
+#main-content #header-2 {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 15px 0 20px;
+}
+
+#main-content #body {
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.4rem;
+  color: rgba(76, 78, 97, 0.5);
+  width: 40rem;
+
+  padding-bottom: 40px;
+}
+
+#main-content #card-body {
+  display: flex;
+  align-items: center;
+}
+
+#main-content #card-body #card-1 {
+  border-top: 3px solid #45d3d3;
+  width: 300px;
+}
+
+#main-content #card-body #card-1:hover {
+  background: linear-gradient(to bottom, rgba(69, 211, 211, 0.5), transparent);
+  transform: scale(1.05);
+  box-shadow: 0px 15px 15px 16px rgba(0, 0, 0, 0.1);
+}
+
+#main-content #card-body #card-2 {
+  border-top: 3px solid #ea5353;
+  width: 300px;
+
+}
+
+#main-content #card-body #card-2:hover {
+  background: linear-gradient(to bottom, rgba(234, 83, 83, 0.4) 5%, transparent 90%);
+  transform: scale(1.05);
+  box-shadow: 0px 15px 15px 16px rgba(0, 0, 0, 0.1);
+}
+
+#main-content #card-body #card-3 {
+  border-top: 3px solid #fcaf4a;
+  width: 300px;
+
+}
+
+#main-content #card-body #card-3:hover {
+  background: linear-gradient(to bottom, rgba(252, 175, 74, 0.5), transparent 85%);
+  transform: scale(1.05);
+  box-shadow: 0px 15px 15px 16px rgba(0, 0, 0, 0.1);
+}
+
+#main-content #card-body #card-4 {
+  width: 300px;
+  border-top: 3px solid #549ef2;
+}
+
+#main-content #card-body #card-4:hover {
+  background: linear-gradient(to bottom, rgba(84, 158, 242, 0.5), transparent);
+  transform: scale(1.05);
+  box-shadow: 0px 15px 15px 16px rgba(0, 0, 0, 0.1);
+}
+
+#main-content #card-body .card {
+  background: white;
+  margin: 1rem 0.8rem;
+  padding: 1.8rem;
+  width: 14rem;
+  border-radius: 4px;
+  box-shadow: 0px 9px 20px 1px rgba(0, 0, 0, 0.1);
+  transition: 0.5s all;
+}
+
+#main-content #card-body .card .card-title {
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+#main-content #card-body .card .card-body {
+  font-size: 15px;
+  line-height: 1.2rem;
+  color: #a3a5ae;
+}
+
+#main-content #card-body .card #card-cont {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#main-content #card-body .card #card-cont .card-img {
+  padding-top: 20px;
+  width: 25%;
+}
+
+@media only screen and (max-width: 675px) {
+  #main-content #card-body {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #main-content #header-2 {
+    text-align: center;
+    width: 22rem;
+  }
+
+  #main-content #body {
+    width: 18rem;
+  }
+
+  #main-content #card-body {
+    display: inline;
+  }
+}
+
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+@import url(https://fonts.googleapis.com/css?family=Junge);
+
+
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+
+
+.content {
+  max-width: 40%;
+  max-height: 50%;
+  margin: 100px auto;
+}
+
+.welcomeText,
+.form,
+.social {
+  width: 100%;
+}
+
+/*welcome text*/
+.welcome {
+  height: 100px;
+  position: relative;
+  border-bottom: 1px solid;
+  overflow: hidden;
+}
+
+.greet {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+  transition: all .5s;
+}
+
+/*taglines*/
+.subText {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  font-size: 30px;
+  overflow: hidden;
+}
+
+.subText p {
+  height: 100%;
+  line-height: 100px;
+  text-align: center;
+
+}
+
+.subTexts {
+  width: 100%;
+  position: absolute;
+  bottom: 100%;
+  text-align: center;
+  overflow: hidden;
+  transition: all .5s;
+}
+
+/*FORM*/
+.form {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.sub {
+  width: 90%;
+  height: 50px;
+  margin: auto;
+  opacity: 0;
+  border: none;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, .05);
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, .4), 0 0 0px 5px rgba(0, 0, 0, .1);
+  transition: all .5s;
+
+
+}
+
+.email {
+  width: 70%;
+  height: 70%;
+  margin: 1% 0;
+  padding-left: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.button {
+  width: 20%;
+  height: 100%;
+  float: right;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  font-size: 16px;
+  background: red;
+  background-color: #49afcd;
+  background-image: linear-gradient(top, #5bc0de, #2f96b4);
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.button:hover {
+  background: #2f96b4;
+  box-shadow: inset 0 1px 5px rgba(0, 0, 0, .3);
+}
+
+/*footer-follow us*/
+.follow {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.followUs {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 100%;
+  line-height: 100px;
+  text-align: center;
+  font-size: 40px;
+  transition: all .5s;
+}
+
+.socialIcons {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.socialIcon {
+  width: 33.33%;
+  height: 100px;
+  float: left;
+  margin-top: 100px;
+  font-size: 50px;
+  line-height: 100px;
+  transition: margin-top .5s, color .5s;
+  cursor: pointer;
+
+}
+
+.socialIcon:hover {
+  color: #49afcd;
+  text-shadow: 0 0 20px white;
+}
+
+.twitter {
+  transition-delay: .5s, 0;
+}
+
+.github {
+  transition-delay: 1s, 0;
+}
+
+@media screen and (max-width:930px) {
+  .subTexts p {
+    font-size: 20px
+  }
+
+  .button {
+    font-size: 12px
+  }
+
+}
+
+@media screen and (max-width:600px) {
+
+  .welcome,
+  .subText,
+  .sub {
+    background: rgba(255, 255, 255, .3);
+  }
+
+  .welcome {
+    border-radius: 20px 20px 0 0;
+  }
+
+  .subText {
+    border-radius: 0 0 20px 20px;
+  }
+
+  .sub {
+    border: 1px solid;
+  }
+
+  .greet {
+    font-size: 30px
+  }
+
+  .subTexts p {
+    font-size: 16px;
+  }
+
+  .button {
+    font-size: 8px;
+    margin-right: -3%
+  }
+
+}

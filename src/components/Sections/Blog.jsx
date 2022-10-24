@@ -2,57 +2,66 @@ import React from "react";
 import styled from "styled-components";
 // Components
 import BlogBox from "../Elements/BlogBox";
-import FullButton from "../Buttons/FullButton";
-import TestimonialSlider from "../Elements/TestimonialSlider";
 
 export default function Blog() {
   return (
     <Wrapper id="blog">
-      <div className="whiteBg">
-        <div className="container">
+      <div className=" mb-5">
+        <div className="container mb-5">
           <HeaderInfo>
-            <h1 className="font40 extraBold"> Blog </h1>
+            <h5 className="font40 extraBold text-center"> Our Partners </h5>
             <p className="font13">
-            
+              
             </p>
           </HeaderInfo>
           <div className="row textCenter">
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div className="col-xs-12 col-sm-4 col-md-3 col-lg-3">
               <BlogBox
                 title="NEMA"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                text=""
                 tag="company"
-                author=""
+                author={require("../../assets/img/download.png").default}
                 action={() => alert("clicked")}
               />
             </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div className="col-xs-12 col-sm-4 col-md-3 col-lg-3">
               <BlogBox
                 title="SEMA"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                text=""
                 tag="company"
-                author=""
+                author={require("../../assets/img/download.jpg").default}
                 action={() => alert("clicked")}
               />
             </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <div className="col-xs-12 col-sm-4 col-md-3 col-lg-3">
               <BlogBox
                 title="UNDRR"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
+                text=""
                 tag="company"
-                author=""
+                author={require("../../assets/img/download (1).jpg").default}
                 action={() => alert("clicked")}
               />
+              
+            </div>
+             <div className="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+              <BlogBox
+                title="UN SPIDER"
+                text=""
+                tag="company"
+                author={require("../../assets/img/download (1).png").default}
+                action={() => alert("clicked")}
+              />
+              
             </div>
           </div>
-          <div className="row flexCenter">
+          {/* <div className="row flexCenter">
             <div style={{ margin: "50px 0", width: "200px" }}>
               <FullButton title="Load More" action={() => alert("clicked")} />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className="lightBg" style={{padding: '50px 0'}}>
+      {/* <div className="lightBg" style={{padding: '50px 0'}}>
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">What They Say?</h1>
@@ -64,7 +73,7 @@ export default function Blog() {
           </HeaderInfo>
           <TestimonialSlider />
         </div>
-      </div>
+      </div> */}
     </Wrapper>
   );
 }
