@@ -5,10 +5,6 @@ import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
-// import AddImage1 from "../../assets/img/add/1.png";
-// import AddImage2 from "../../assets/img/add/2.png";
-// import AddImage3 from "../../assets/img/add/3.png";
-// import AddImage4 from "../../assets/img/add/4.png";
 
 export default function Services() {
   return (
@@ -237,51 +233,51 @@ const AddRight = styled.div`
 const AddRightInner = styled.div`
   width: 100%;
 `;
-const AddImgWrapp1 = styled.div`
-  width: 48%;
-  margin: 0 6% 10px 6%;
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 1rem;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-  }
-`;
-const AddImgWrapp2 = styled.div`
-  width: 30%;
-  margin: 0 5% 10px 5%;
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 1rem;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-  }
-`;
-const AddImgWrapp3 = styled.div`
-  width: 20%;
-  margin-left: 40%;
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 1rem;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-  }
-`;
-const AddImgWrapp4 = styled.div`
-  width: 30%;
-  margin: 0 5%auto;
-  img {
-    width: 100%;
-    height: auto;
-    border-radius: 1rem;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
-  }
-`;
+// const AddImgWrapp1 = styled.div`
+//   width: 48%;
+//   margin: 0 6% 10px 6%;
+//   img {
+//     width: 100%;
+//     height: auto;
+//     border-radius: 1rem;
+//     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//   }
+// `;
+// const AddImgWrapp2 = styled.div`
+//   width: 30%;
+//   margin: 0 5% 10px 5%;
+//   img {
+//     width: 100%;
+//     height: auto;
+//     border-radius: 1rem;
+//     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//   }
+// `;
+// const AddImgWrapp3 = styled.div`
+//   width: 20%;
+//   margin-left: 40%;
+//   img {
+//     width: 100%;
+//     height: auto;
+//     border-radius: 1rem;
+//     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//   }
+// `;
+// const AddImgWrapp4 = styled.div`
+//   width: 30%;
+//   margin: 0 5%auto;
+//   img {
+//     width: 100%;
+//     height: auto;
+//     border-radius: 1rem;
+//     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//     -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+//   }
+// `;
